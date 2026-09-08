@@ -1,0 +1,6 @@
+void main() {
+  String firstName = "DART";
+  firstName.split('').forEach((char) {
+    print(char);
+  });
+}
