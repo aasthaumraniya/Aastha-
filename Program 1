@@ -1,1 +1,7 @@
+void main() {
+  var name = "Your Name"; // var for inferred type
+  final int rollNumber = 101; // final for single assignment
+  const String city = "New York"; // const for compile-time constants
 
+  print("Name: $name, Roll No: $rollNumber, City: $city");
+}
