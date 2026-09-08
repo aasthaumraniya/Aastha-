@@ -1,0 +1,12 @@
+void main() {
+  Map<String, String> friendsColors = {
+    "Alice": "Blue",
+    "Bob": "Red",
+    "Charlie": "Green",
+    "David": "Yellow",
+    "Eve": "Black"
+  };
+
+  friendsColors.putIfAbsent("YourName", () => "Purple");
+  print(friendsColors);
+}
