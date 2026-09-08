@@ -1,0 +1,23 @@
+void main() {
+  String day = "Monday"; // Current week day name
+
+  switch (day) {
+    case "Monday":
+      print("Start of the work week!");
+      break;
+    case "Tuesday":
+      print("Keep pushing forward.");
+      break;
+    case "Wednesday":
+      print("Hump day!");
+      break;
+    case "Thursday":
+      print("Almost there.");
+      break;
+    case "Friday":
+      print("Weekend is near!");
+      break;
+    default:
+      print("Enjoy the weekend!");
+  }
+}
