@@ -1,0 +1,13 @@
+void main() {
+  double percentage = 85.5; // Hardcoded percentageif (percentage >= 90) {
+    print("Grade: A+");
+  } else if (percentage >= 80) {
+    print("Grade: A");
+  } else if (percentage >= 70) {
+    print("Grade: B");
+  } else if (percentage >= 60) {
+    print("Grade: C");
+  } else {
+    print("Grade: F");
+  }
+}
