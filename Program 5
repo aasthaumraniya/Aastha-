@@ -1,0 +1,12 @@
+void main() {
+  int rollNumber = 24;
+  int i = 1;
+
+  print("Even numbers up to $rollNumber:");
+  while (i <= rollNumber) {
+    if (i % 2 == 0) {
+      print(i);
+    }
+    i++;
+  }
+}
