@@ -1,0 +1,6 @@
+void printMarks({required int math, required int physics, required int ds, required int mad}) {print("Math: $math, Physics: $physics, DS: $ds, MAD: $mad");
+}
+
+void main() {
+  printMarks(math: 90, physics: 85, ds: 88, mad: 92);
+}
