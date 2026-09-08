@@ -1,0 +1,9 @@
+void main() {
+  int rollNumber = 107;
+  int lastDigit = rollNumber % 10;
+
+  print("Table of $lastDigit:");
+  for (int i = 1; i <= 10; i++) {
+    print("$lastDigit x $i = ${lastDigit * i}");
+  }
+}
