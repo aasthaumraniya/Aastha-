@@ -1,0 +1,8 @@
+void wishBirthday([String name = "User", int age = 20]) {
+  print("Happy Birthday $name! You are now $age years old.");
+}
+
+void main() {
+  wishBirthday(); // Uses defaults
+  wishBirthday("John", 25);
+}
