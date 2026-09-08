@@ -1,0 +1,9 @@
+import 'dart:math';
+
+double calculateArea(double radius) => pi * radius * radius;
+
+void main() {
+  print("Area 1 (r=5): ${calculateArea(5).toStringAsFixed(2)}");
+  print("Area 2 (r=10): ${calculateArea(10).toStringAsFixed(2)}");
+  print("Area 3 (r=2.5): ${calculateArea(2.5).toStringAsFixed(2)}");
+}
