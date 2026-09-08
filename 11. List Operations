@@ -1,0 +1,12 @@
+void main() {
+  List<String> movies = ["Inception", "Interstellar", "Dark Knight", "Tenet", "Prestige"];
+  
+  movies.add("Memento");
+  print("After Add: $movies");
+  
+  movies.remove("Tenet");
+  print("After Remove: $movies");
+  
+  movies.sort();
+  print("After Sort: $movies");
+}
