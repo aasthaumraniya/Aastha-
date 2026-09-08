@@ -1,0 +1,8 @@
+void main() {
+  Set<String> myHobbies = {"Coding", "Gaming", "Reading"};
+  Set<String> friendHobbies = {"Gaming", "Hiking", "Cooking"};
+
+  print("Union: ${myHobbies.union(friendHobbies)}");
+  print("Intersection: ${myHobbies.intersection(friendHobbies)}");
+  print("Difference (Mine - Friend's): ${myHobbies.difference(friendHobbies)}");
+}
