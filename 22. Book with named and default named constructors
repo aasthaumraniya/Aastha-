@@ -1,0 +1,21 @@
+class Book {
+  String title;
+
+  // Default named constructor
+  Book.defaultBook() : title = "The Alchemist";
+
+  // Named constructor
+  Book.customBook(String bookTitle) : title = bookTitle;
+
+  void display() {
+    print("Book Title: $title");
+  }
+}
+
+void main() {
+  Book book1 = Book.defaultBook();
+  book1.display();
+
+  Book book2 = Book.customBook("Harry Potter");
+  book2.display();
+}
