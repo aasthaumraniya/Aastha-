@@ -1,0 +1,11 @@
+void main() {
+  String? careerGoal;
+
+  // Using ?? to provide a default value
+  print("Default Career Goal: ${careerGoal ?? 'Software Developer'}");
+
+  // Using ??= to assign actual goal
+  careerGoal ??= "Data Scientist";
+
+  print("My Career Goal: $careerGoal");
+}
