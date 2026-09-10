@@ -1,0 +1,18 @@
+void main() {
+  String name = "Aastha";
+
+  try {
+    int number = int.parse(name);
+    print("Number: $number");
+  } on FormatException {
+    print("Error: '$name' cannot be converted into an integer.");
+  }
+
+  List<String> foods = ["Pizza", "Burger", "Pasta"];
+
+  try {
+    print("Favourite Food: ${foods[5]}");
+  } on RangeError {
+    print("Error: The food index is out of range.");
+  }
+}
