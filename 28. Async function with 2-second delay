@@ -1,0 +1,15 @@
+Future<String> fetchCollegeName() async {
+  await Future.delayed(Duration(seconds: 2));
+
+  return "Atmiya University";
+}
+
+void main() {
+  print("Fetching college name...");
+
+  fetchCollegeName().then((college) {
+    print("College Name: $college");
+  });
+
+  print("This message prints immediately.");
+}
